@@ -1,0 +1,9 @@
+echo there are $# arguments
+i=0
+for vec
+do
+  let i++
+  if((i%2==0)) 
+  then echo arg$i:$vec
+  fi
+done
