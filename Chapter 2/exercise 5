@@ -1,9 +1,9 @@
 echo there are $# arguments
 i=0
-for vec
+for ARG
 do
   let i++
   if((i%2==0)) 
-  then echo arg$i:$vec
+  then echo arg$i:$ARG
   fi
 done
