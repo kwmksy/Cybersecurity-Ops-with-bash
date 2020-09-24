@@ -23,7 +23,7 @@ function mkabspath ()                           # <6>
     then
     	ABS=$1
     else
-        ABS="$PWD/$1"                             # <8>
+        ABS="$PWD/$1"                           # <8>
     fi
 }
 
